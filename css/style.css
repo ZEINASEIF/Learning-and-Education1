@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f7fa;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.for-content {
+  margin-top: 150px;
+}
+.content {
+  width: auto;
+}
+.for-content .link h3 {
+  padding: 30px;
+  background: #eef1ff;
+  border-radius: 8px;
+  position: relative;
+  top: 0;
+  margin-bottom: 4em;
+  margin-top: 2em;
+  text-align: center;
+  padding-top: 50px;
+  border: 2px solid #f6f5f5;
+  color: #242f9b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  /* width: auto; */
+  transition: 0.5s linear;
+  box-shadow: -3px 6px 4px #a6b1e1;
+  transition: 0.5s all ease-in-out;
+}
+.content .link {
+  text-decoration: none;
+}
+.content h3 span {
+  color: #e9e4ee;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  text-align: center;
+  background-color: #646fd4;
+  border-radius: 5px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+.for-content .link h3:hover {
+  color: #481380;
+  box-shadow: 0 4px 20px -5px rgba(200, 135, 221, 0.6);
+  top: -7px;
+  background-color: #e9e4ee;
+}
+.for-content .link h3:hover span {
+  background-color: #293462;
+  color: #eef1ff;
+}
+
+/* modal button */
+
+.button-modal {
+  text-align: center;
+}
+.btn-add {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  padding: 10px 40px;
+  border: #5e63b6 1px;
+  color: #f4f4f4;
+  background-image: linear-gradient(
+    45deg,
+    #27296d 0%,
+    #5e63b6 51%,
+    #a393eb 100%
+  );
+  box-shadow: rgba(45, 35, 66, 0.4) 0 1px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px 0px, rgba(58, 65, 111, 0.5) 0 0px 0 inset;
+}
+
+.btn-add:hover {
+  color: #242f9b;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(215, 223, 252, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(215, 223, 252, 1) 84%
+  );
+}
+
+/* modal*/
+
+input {
+  width: 80%;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  border: #27296d 5px solid;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.btn-end {
+  background-color:#f3acca;
+  /* #a6b1e1; */
+  color: #0A0944;
+  font-size: 25px;
+}
+.btn-save {
+  background-color: #5e63b6;
+  color: #fff;
+  font-size: 25px;
+}
+
+.btn-save:hover{
+  border: #5e63b6 1px transparent;
+  background-color: #9fa7e8;
+  color: #27296d;
+}
+
+.btn-end:hover{
+  border: #debbd0 1px transparent;
+  background-color: #edc8de;;
+  color: #421B9B;
+}
